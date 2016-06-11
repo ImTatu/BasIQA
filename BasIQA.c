@@ -12,7 +12,7 @@ int main (void){
 	}
 	printf("CF:");
 	scanf("%lf", &CF);
-			if (CF > 10){
+			if (CF > 100000){
 		q1 = 3.0;
 	} 	else {
 		q1 = 98.03 + (-36.45 * log(CF)) + (3.138 * pow(log10(CF), 2)) + (0.06776 * pow(log10(CF), 3));
@@ -45,7 +45,7 @@ int main (void){
 			if (FT > 10){
 				q5 = 1.0;
 	}	else {
-		q5 = 213.7 * exp(-1.680 * pow(CF, 0.3325));
+		q5 = 213.7 * exp(-1.680 * pow(FT, 0.3325));
 	}
 	printf("DT:");
 	scanf("%lf", &DT) ;
