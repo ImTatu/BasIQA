@@ -70,7 +70,17 @@ int main (void){
 	}
 
 	IQA = pow(q9, 0.17) * pow(q1, 0.15) * pow(q2, 0.12) * pow(q3, 0.10) * pow(q4, 0.10) * pow(q5, 0.10) * pow(q6, 0.1) * pow(q7, 0.08) * pow(q8, 0.08);
-	printf("IQA = %lf\n", IQA);
+	if (IQA > 79 && IQA <= 100){
+		printf("%lf  = Qualidade Otima!\n", IQA);
+} 	if (IQA > 50 && IQA <= 79){
+		printf("%lf  = Qualidade Boa!\n", IQA);
+}	if (IQA > 36 && IQA <= 50){
+		printf("%lf  = Qualidade Aceitável\n", IQA);
+}	if (IQA > 19 && IQA <= 36){
+		printf("%lf  = Qualidade Ruim\n", IQA);
+}	if (IQA > 0 && IQA <= 19){
+		printf("%lf  = Qualide Péssima\n", IQA);
+}
 	return 0;
 	
 }
