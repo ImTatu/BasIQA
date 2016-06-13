@@ -79,7 +79,7 @@ int main (void){
 }	if (IQA > 19 && IQA <= 36){
 		printf("%lf  = Qualidade Ruim\n", IQA);
 }	if (IQA > 0 && IQA <= 19){
-		printf("%lf  = Qualide Péssima\n", IQA);
+		printf("%lf  = Qualidade Péssima\n", IQA);
 }
 	return 0;
 	
