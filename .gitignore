@@ -30,3 +30,17 @@
 
 # Debug files
 *.dSYM/
+
+# Sobras de comandos
+%O2.c
+.DS_Store
+CF.c
+DBO.c
+DT.c
+FT.c
+Funções.c
+NT.c
+ST.c
+TU.c
+pH.c
+teste
